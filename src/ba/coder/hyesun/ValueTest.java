@@ -14,12 +14,15 @@ public class ValueTest {
 		
 		Tot=aVal+bVal;
 		System.out.println("\"Total\"="+Tot);
-
+	}
+		
+	public void add () {
+		int val2 = 5;
+		int total = GlobalVariable + val2;
 		
 	}
 		
 
-	
-	}
+
 
 }
