@@ -1,5 +1,4 @@
 package ba.coder.hyesun.day2;
-
 import javax.swing.JOptionPane;
 
 public class InputVal {
