@@ -9,11 +9,12 @@ public class ArrayTest6 {
 		String input=JOptionPane.showInputDialog("input");
 		
 		char inputArr[]=new char[input.length()];
-		for(int i=0;i<inputArr.length/2;i++) {
+		for(int i=0;i<inputArr.length;i++) {
 			inputArr[i]=input.charAt(i);
 		}
 		boolean isPalindrome=true;
 		for(int i=0;i<inputArr.length/2;i++) {
+			System.out.println(inputArr[i]+"/"+inputArr[inputArr.length-1-i]);
 			if(inputArr[i]!=inputArr[inputArr.length-1-i]) {
 				isPalindrome=false;
 				break;
